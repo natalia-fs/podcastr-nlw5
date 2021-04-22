@@ -109,3 +109,64 @@
     }
   }
 }
+
+.allEpisodes {
+  padding-bottom: 2rem;
+  table {
+    width: 100%;
+    
+    th, td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--gray-100);
+    }
+
+    th{
+      color: var(--gray-200);
+      text-transform: uppercase;
+      font: 500 0.75rem Lexend, sans-serif;
+      text-align: left;
+    }
+
+    td {
+      font-size: .875rem;
+      img{
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: .5rem;
+      }
+
+      a {
+        color: var(--gray-800);
+        font-family: Lexend, sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+        line-height: 1.4rem;
+        font-size: 1rem;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+
+      button{
+        width: 2rem;
+        height: 2rem;
+        background: var(--white);
+        border: 1px solid var(--gray-100);
+        border-radius: .5rem;
+        font-size: 0;
+
+        transition: filter .2s;
+
+        img{
+          width: 1.25rem;
+          height: 1.25rem;
+        }
+
+        &:hover{
+          filter: brightness(.95);
+        }
+      }
+    }
+  }
+}
