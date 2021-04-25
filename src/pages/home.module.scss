@@ -15,12 +15,12 @@
   
   /* Track */
   &::-webkit-scrollbar-track {
-    background: var(--gray-200); 
+    background: var(--gray-100); 
   }
    
   /* Handle */
   &::-webkit-scrollbar-thumb {
-    background: var(--purple-300);
+    background: var(--green-500);
     border-radius: 4px; 
   }
 }
@@ -33,7 +33,7 @@
     gap: 1.5rem;
 
     li{
-      background: var(--white);
+      background: var(--gray-50);
       border: 1px solid var(--gray-100);
       padding: 1.25rem;
       border-radius: 1.5rem;
